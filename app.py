@@ -5,7 +5,6 @@ from db import db_init ,db
 from models import Upload
 
 
-
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///test.db'
 db_init(app)
