@@ -4,7 +4,7 @@ from pymongo import MongoClient
 from bson import ObjectId
 import gridfs 
 
-
+# upload file in mongodb
 
 app = Flask(__name__)
 # MongoClient object to connect to MongoDB server
